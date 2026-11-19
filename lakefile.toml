@@ -9,7 +9,7 @@ rev = "v4.33.0"
 
 [[lean_lib]]
 name = "HelloLeanAI"
-globs = ["example.+", "live.+", "prompts.+"]
+globs = ["example.+", "live.+", "playground.+"]
 
 [[lean_lib]]
 name = "Intro101"
