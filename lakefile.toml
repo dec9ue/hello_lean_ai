@@ -1,0 +1,17 @@
+name = "hello_lean_ai"
+version = "0.1.0"
+defaultTargets = ["HelloLeanAI", "Intro101"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.33.0"
+
+[[lean_lib]]
+name = "HelloLeanAI"
+globs = ["example.+", "live.+", "prompts.+"]
+
+[[lean_lib]]
+name = "Intro101"
+srcDir = "101"
+roots = ["Logic", "Equality", "SumSquares"]
