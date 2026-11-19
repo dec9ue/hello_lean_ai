@@ -14,4 +14,4 @@ globs = ["example.+", "live.+", "playground.+"]
 [[lean_lib]]
 name = "Intro101"
 srcDir = "101"
-roots = ["Logic", "Equality", "SumSquares"]
+roots = ["Logic", "Equality", "SumSquares", "QuizScore", "CoinFlip"]
